@@ -1,5 +1,7 @@
 .popularPost .box {
   margin: 15px 15px 15px 0;
+  background: #fff;
+  border-radius: 15px;
 }
 .popularPost img {
   width: 100%;
@@ -8,3 +10,5 @@
 .popularPost .text {
   padding: 20px;
 }
+
+

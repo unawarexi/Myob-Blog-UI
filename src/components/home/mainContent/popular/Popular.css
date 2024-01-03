@@ -6,7 +6,7 @@
   position: relative;
   margin: 15px 15px 15px 0;
   /*box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;*/
-  border-radius: 30px;
+  border-radius: 15px;
 }
 .popular .images {
   position: relative;
@@ -20,6 +20,7 @@
 .popular .text h1 {
   padding: 20px 0 0 20px;
   margin: 0;
+ 
 }
 .popular .date {
   margin-top: 15px;
@@ -31,3 +32,16 @@
   padding: 5px 0 0 20px;
   margin-top: 5px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .popular .text h1 {
+    padding: 20px 0 0 20px;
+    margin: 0;
+    font-size: 12px;
+   
+  }
+  
+}
+
+
