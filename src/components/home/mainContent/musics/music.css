@@ -2,6 +2,7 @@
   margin-bottom: 30px;
   margin-left: 2px;
   border-radius: 30px;
+  background: #fff;
 }
 .music .text {
   padding: 0 30px;
@@ -20,8 +21,15 @@
   color: #ff0f87
 }
 @media screen and (max-width: 768px) {
+  .music .box {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1);
+  }
+
   .music img,
   .music .images {
     height: 350px;
+    width:100%;
+    object-fit: cover;
   }
 }
