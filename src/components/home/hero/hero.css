@@ -9,10 +9,12 @@
   color: #e91147;
   font-weight: bold;
   padding: 3rem 0;
+  
 }
 
 .hero a {
   color: #fff;
+ 
 }
 
 .hero .box {
@@ -36,30 +38,40 @@
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 6.6vh);
   grid-gap: 10px;
+  
 }
 .hero .box:nth-child(1) {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 9;
+  background-color: #00000056;
+  border-radius: 30px;
+  
 }
 .hero .box:nth-child(2) {
   grid-column-start: 5;
   grid-column-end: 9;
   grid-row-start: 1;
   grid-row-end: 5;
+  background-color: #00000056;
+  border-radius: 30px;
 }
 .hero .box:nth-child(3) {
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 5;
   grid-row-end: 9;
+  background-color: #00000056;
+  border-radius: 30px;
 }
 .hero .box:nth-child(4) {
   grid-column-start: 7;
   grid-column-end: 9;
   grid-row-start: 5;
   grid-row-end: 9;
+  background-color: #0000004f;
+  border-radius: 30px;
 }
 .hero .text h1 {
   font-weight: 500;

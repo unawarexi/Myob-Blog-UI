@@ -13,7 +13,7 @@ const Homes = () => {
       <main>
         <div className='container'>
           <section className='mainContent'>
-            <Popular />
+            <Popular className = "popular_content" />
             <Ppost />
             <Life />
             <Music />
