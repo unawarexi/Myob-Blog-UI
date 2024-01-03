@@ -52,6 +52,20 @@ header a {
 
 
 
+@media screen and (max-width: 1024px) {
+
+  .head .logo img {
+    width: 200px;
+  }
+
+  .head .ad img {
+    width: 100px;
+  }
+ 
+}
+
+
+
 @media screen and (max-width: 768px) {
   .head .ad {
     display: none;
