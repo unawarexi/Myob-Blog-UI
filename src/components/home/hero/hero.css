@@ -106,10 +106,6 @@
 
   .hero .container {
     display: grid;
-    /* grid-template-columns: none; */
-
-    /* grid-template-columns: repeat(4, 1fr); */
-    /* grid-template-rows: repeat(4, 6.6vh); */
     grid-gap: 20px;
   }
 
@@ -151,6 +147,10 @@
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(18, 6vh);
     grid-gap: 10px;
+  }
+
+  .hero .box:nth-child(1) h1 {
+    font-size: 20px;
   }
   .hero .box:nth-child(1) {
     grid-column-start: 1;

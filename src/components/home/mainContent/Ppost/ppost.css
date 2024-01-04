@@ -12,3 +12,20 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+  .popularPost h1 {
+    font-size: 15px;
+  }
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  .popularPost h1 {
+    font-size: 12px;
+  }
+  
+}
+
+
+
